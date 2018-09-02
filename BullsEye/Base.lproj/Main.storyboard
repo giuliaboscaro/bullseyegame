@@ -105,9 +105,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="roundLabel" destination="LJF-qn-Z2q" id="Dvd-oA-aUK"/>
+                        <outlet property="scoreLabel" destination="X2R-fR-sac" id="yie-HP-IRT"/>
                         <outlet property="slider" destination="fxP-pN-2Al" id="TJ4-VG-N5w"/>
                         <outlet property="targetLabel" destination="uxn-Ab-YY6" id="yJC-2q-4Kn"/>
-                        <outlet property="totalScore" destination="X2R-fR-sac" id="56v-bP-sRk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
